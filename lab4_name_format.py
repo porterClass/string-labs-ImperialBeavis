@@ -13,8 +13,24 @@ first_last(last_first("Bugs Bunny"))  # returns "Bugs Bunny"
 #YOUR
 #FUNCTION BELOW HERE
 
+def last_first(x):
+ space = x.find(" ")
+ new_string = ""
+ last = x[space + 1:]
+ first = x[0:space]
+ new_string += last + ", " + first
 
 
+ return new_string
+
+
+def first_last(y):
+ seperate = y.find(", ")
+ new_string = ""
+ first = y[seperate + 2:]
+ last = y[0:seperate]
+ new_string += first + " " + last
+ return new_string
 
 
 

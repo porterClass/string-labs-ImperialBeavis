@@ -10,7 +10,8 @@ substring("COMPUTER SCIENCE IS THE BEST!", 9, 12)  # returns "SCI"
 #CODE 
 #YOUR
 #FUNCTION BELOW HERE
-
+def substring(s, start, end):
+    return s[start:end]
 
 
 

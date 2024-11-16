@@ -10,7 +10,9 @@ letterr("World")  # returns "First letter is W and last letter is d"
 #CODE 
 #YOUR
 #FUNCTION BELOW HERE
-
+def letterr(x):
+  return ("First letter is " + (x[0]) + " and last letter is " + (x[len(x)-1]))
+x = ""
 
 
 
